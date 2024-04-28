@@ -1,0 +1,322 @@
+.fondo{
+   
+    background-color: #fdfdf7; /* Color de fondo beige suave */
+  /*  background-color:rgb(235, 231, 231);  */
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.video-container {
+    width: 100%; /* Cambia este valor para ajustar el ancho del contenedor */
+    max-width: 1200px; /* Establece un ancho máximo opcional */
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
+    overflow: hidden;
+    border-radius: 30px;
+    box-shadow: 0 0 150px rgba(0, 0, 0, 0.1);
+
+   
+
+
+}
+
+.video-responsive {
+    width: 100%;
+    height: auto;
+  
+}
+
+
+/* Estilos para el contenedor del video */
+.video-container {
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+/* Estilos para el marco inferior */
+.video-container::after {
+    content: '';
+    position: absolute;
+    bottom: -50px; /* Bajar ligeramente el marco para dar más espacio */
+    left: 0;
+    width: 100%;
+    height: 150px; /* Aumentar la altura para un efecto más estilizado */
+    background: #fff; /* Color de fondo del marco */
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    transform: translateY(50%) skewY(-3deg); /* Inclinación hacia arriba */
+    box-shadow: 0px -5px 15px rgba(0, 0, 0, 0.3); /* Agregar sombra para un efecto de profundidad */
+}
+
+/*#texto{
+    margin:20%;
+    padding:50%;
+}*/
+#texto {
+    margin-top: 10%; /* Mover el texto hacia abajo */
+    padding-top: 10%; /* Añadir espacio adicional arriba */
+    text-align: center; /* Centrar el texto horizontalmente */
+}
+
+                                  /*CUENTA REGRESIVA*/
+
+.tamaño {
+    width: var(--img-width); /* Utilizamos la variable CSS para el ancho de la imagen */
+    height: var(--img-height); /* Utilizamos la variable CSS para el alto de la imagen */
+    margin-top: 50px;
+    margin-right: 10rem;
+}
+
+.im {
+    margin-right: 0rem;
+    margin-top: 7rem;
+    position: relative;
+}
+
+.im::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+:root {
+    --img-width: 30rem; /* Modifica el ancho de la imagen aquí */
+    --img-height: 30rem; /* Modifica el alto de la imagen aquí */
+}
+
+#countdown {
+   
+    font-size: 1.2rem;
+    position: absolute;
+    top: 40px; /* Ajusta la distancia desde la parte superior */
+    left: 4rem; /* Ajusta la distancia desde la izquierda */
+}
+.mover{
+    margin-left: 50px; /* Ajusta la cantidad de movimiento según sea necesario */
+    font-family: 'Allura', cursive, sans-serif;
+}
+ 
+
+
+
+.reloj {
+    width: 30rem; /* Ancho del contenedor */
+    height: 30rem; /* Altura del contenedor */
+    background-size: cover; /* Ajusta el tamaño de la imagen para cubrir completamente el contenedor */
+    margin-left: 90px; /* Mueve el elemento hacia la derecha */
+    margin-top: -310px; /* Mueve el elemento hacia arriba */
+}
+
+                                   /* FUENTE CURSIVA */
+.fuente-cursiva {
+    font-family: 'Allura', cursive, sans-serif;
+}
+
+
+.cursiva {
+    font-family: 'Allura', cursive, sans-serif;
+    margin-top: 11rem; /* Mueve el texto hacia abajo */
+    text-align: center; /* Centra horizontalmente */
+    line-height: 1.5; /* Espacio entre líneas */
+    height: 7rem; /* Altura fija del contenedor */
+    overflow: hidden; /* Oculta el exceso de texto */
+}
+
+.cursi{
+    font-family: 'Allura', cursive, sans-serif;
+    margin-top: 5rem; /* Mueve el texto hacia abajo */
+    text-align: center; /* Centra horizontalmente */
+    line-height: 1.5; /* Espacio entre líneas */
+    height: 3rem; /* Altura fija del contenedor */
+    overflow: hidden; /* Oculta el exceso de texto */ 
+}
+
+                                      /* COLLAGE */
+
+.collage{
+    
+ 
+   height: 100%;
+   width: 100%; 
+    
+}
+#colla{
+    margin-top: 5rem;  /* Mueve el elemento hacia abajo */
+    background-color: white;
+}
+
+
+
+                                       /* FOTO */
+.foto{
+    width: 100%;
+}
+
+
+                                        /* RECEPCION */
+
+.recepcion {
+    position: absolute; /* Asegúrate de que el posicionamiento sea absoluto */
+    right: 0; /* Alinea el lado derecho del elemento con el lado derecho del contenedor */
+    left: 0; /* Alinea el lado izquierdo del elemento con el lado izquierdo del contenedor */
+    margin: auto; /* Centra horizontalmente */
+    top: 10%; /* Ajusta la distancia desde la parte superior */
+    height: 8rem;
+    width: 8rem;
+
+    
+}
+.regalo {
+
+    position: absolute; /* Asegúrate de que el posicionamiento sea absoluto */
+    right: 0; /* Alinea el lado derecho del elemento con el lado derecho del contenedor */
+    left: 0; /* Alinea el lado izquierdo del elemento con el lado izquierdo del contenedor */
+    margin: auto; /* Centra horizontalmente */
+    top: 15%; /* Ajusta la distancia desde la parte superior */
+    height: 7rem;
+    width: 7rem;
+}
+.rega{
+    position: absolute; /* Asegúrate de que el posicionamiento sea absoluto */
+    right: 20%; /* Alinea el lado derecho del elemento con el lado derecho del contenedor */
+    left: 0; /* Alinea el lado izquierdo del elemento con el lado izquierdo del contenedor */
+    margin: auto; /* Centra horizontalmente */
+    top: 15%; /* Ajusta la distancia desde la parte superior */
+    height: 7rem;
+    width: 7rem;
+}
+.regal{
+    position: absolute; /* Asegúrate de que el posicionamiento sea absoluto */
+    right: 0; /* Alinea el lado derecho del elemento con el lado derecho del contenedor */
+    left: 20%; /* Alinea el lado izquierdo del elemento con el lado izquierdo del contenedor */
+    margin: auto; /* Centra horizontalmente */
+    top: 15%; /* Ajusta la distancia desde la parte superior */
+    height: 7rem;
+    width: 7rem;
+}
+
+                                       /* Estilo para el botón */
+.boton-beige {
+    background-color: #bcbab8; /* Color beige oscuro */
+    color: white; /* Color del texto */
+    padding: 10px 20px; /* Espaciado interno */
+    border: none; /* Sin borde */
+    border-radius: 20px; /* Esquinas redondeadas */
+    cursor: pointer; /* Cambiar cursor al pasar el mouse */
+    margin-left: 120px; /* Mover el botón 10px hacia la derecha */
+    margin-top: -100%;
+    
+}
+/* Estilo para el botón al pasar el mouse */
+.boton-beige:hover {
+    background-color: #a09e9c; /* Color beige más oscuro */
+}
+/*:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+.boton-beig {
+    background-color: #bcbab8; /* Color beige oscuro */
+    color: white; /* Color del texto */
+    padding: 10px 20px; /* Espaciado interno */
+    border: none; /* Sin borde */
+    border-radius: 20px; /* Esquinas redondeadas */
+    cursor: pointer; /* Cambiar cursor al pasar el mouse */
+    margin-left: 140px; /* Mover el botón 10px hacia la derecha */
+    margin-top: -10%;
+    
+}
+
+/* Estilo para el botón al pasar el mouse */
+.boton-beig:hover {
+    background-color: #a09e9c; /* Color beige más oscuro */
+}
+/*:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+.boton-bei {
+    background-color: #bcbab8; /* Color beige oscuro */
+    color: white; /* Color del texto */
+    padding: 10px 20px; /* Espaciado interno */
+    border: none; /* Sin borde */
+    border-radius: 20px; /* Esquinas redondeadas */
+    cursor: pointer; /* Cambiar cursor al pasar el mouse */
+    margin-left: 140px; /* Mover el botón 10px hacia la derecha */
+    margin-top: -10%;
+    
+}
+
+/* Estilo para el botón al pasar el mouse */
+.boton-bei:hover {
+    background-color: #a09e9c; /* Color beige más oscuro */
+}
+
+
+
+/*GEOLOCALOZACION*/
+#map {
+    width: 100%;
+    height: 20rem;
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    
+  }
+  #ubi{
+    text-align: center;
+    background-color:rgb(235, 231, 231);
+    width: 69.4rem;
+    border-radius: 5px;
+
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    transform: translateY(-10px) rotateX(10deg);
+    box-shadow: 0 30px 30px rgba(0, 0, 0, 0.2);
+   
+  }
+
+                         /*WHASA*/
+    
+.wha{
+    position: absolute; /* Asegúrate de que el posicionamiento sea absoluto */
+    right: 0; /* Alinea el lado derecho del elemento con el lado derecho del contenedor */
+    left: 3rem; /* Alinea el lado izquierdo del elemento con el lado izquierdo del contenedor */
+    margin: auto; /* Centra horizontalmente */
+    top: 15%; /* Ajusta la distancia desde la parte superior */
+    height: 6rem;
+    width: 6rem;   
+    margin-top: 7rem; /* Mueve el texto hacia abajo */
+}
+#whatsapp{
+   
+    width: 3rem;
+    height: 3rem;
+    bottom: 4rem;
+    right: 4rem;
+    text-align: center;
+    z-index: 1000;  
+}
+
+
+
+
+
+.unidad-tiempo {
+    display: inline-block;
+    margin-right: 20px;
+    text-align: center;
+}
+
+.texto-faltan {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.valor-tiempo {
+    font-size: 24px;
+}
+#sube{
+margin-top: 10rem;
+}
